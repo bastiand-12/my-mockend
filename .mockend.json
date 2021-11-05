@@ -4,7 +4,7 @@
 	  "loremWords": { "minLength": 15, "maxLength": 200 }
 	},
 	"category" : {
-	  "regexp": "Category [A-Z]{10}"
+	  "regexp": "Category [A-Z]{1}[a-z]{10}"
 	},
 	"date" : {
 	  "string": [ "2021-12-20T14:20:00" ]
