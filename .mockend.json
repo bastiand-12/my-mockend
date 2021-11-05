@@ -1,7 +1,13 @@
 {
-  "User": {
+  "Events": {
     "title": {
-      "string": {}
-    }
+	  "loremWords": { "minLength": 5, "maxLength": 20 }
+    },
+	"date" : {
+	  "string": [ "2021-12-20T14:20:00" ]
+	},
+	"imgUrl": {
+	  "regexp": "https://picsum\\.photos/seed/[0-9]{5}/250/75"
+	}
   }
 }
