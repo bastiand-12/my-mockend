@@ -11,6 +11,15 @@
 	},
 	"imgUrl": {
 	  "regexp": "https://picsum\\.photos/seed/[0-9]{5}/250/75"
+	},
+	"comments": {
+	  "hasMany": "Comment"
+	}
+  },
+  "Comment": {
+	"body": { "string": {} },
+	"post": {
+	  "belongsTo": "Event"
 	}
   }
 }
