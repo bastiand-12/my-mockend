@@ -12,13 +12,13 @@
 	"imgUrl": {
 	  "regexp": "https://picsum\\.photos/seed/[0-9]{5}/250/75"
 	},
-	"comments": {
-	  "hasMany": "Comment"
+	"contents": {
+	  "hasMany": "Content"
 	}
   },
-  "Comment": {
+  "Content": {
 	"body": { "string": {} },
-	"post": {
+	"event": {
 	  "belongsTo": "Event"
 	}
   }
