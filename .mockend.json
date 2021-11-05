@@ -1,8 +1,11 @@
 {
-  "Event": {
-    "title": {
+  "Events": {
+	"title": {
 	  "loremWords": { "minLength": 5, "maxLength": 20 }
-    },
+	},
+	"category" : {
+	  "regexp": "Category [A-Z]{1}"
+	},
 	"date" : {
 	  "string": [ "2021-12-20T14:20:00" ]
 	},
