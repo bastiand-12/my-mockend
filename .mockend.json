@@ -10,7 +10,7 @@
 	  "string": [ "2021-12-20T14:20:00" ]
 	},
 	"imgUrl": {
-	  "regexp": "https://loremflickr.com/250/75"
+	  "string": [ "https://loremflickr.com/250/75" ]
 	},
 	"contents": {
 	  "hasMany": "Content"
