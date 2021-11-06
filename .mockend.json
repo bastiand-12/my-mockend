@@ -10,7 +10,7 @@
 	  "string": [ "2021-12-20T14:20:00" ]
 	},
 	"imgUrl": {
-	  "regexp": "https://picsum\\.photos/seed/[0-9]{5}/250/75"
+	  "regexp": "https://picsum.photos/seed/72986/250/75"
 	},
 	"contents": {
 	  "hasMany": "Content"
