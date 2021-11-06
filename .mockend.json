@@ -10,7 +10,7 @@
 	  "string": [ "2021-12-20T14:20:00" ]
 	},
 	"imgUrl": {
-	  "string": [ "http://via.placeholder.com/250x75" ]
+	  "string": [ "https://via.placeholder.com/250x75" ]
 	},
 	"contents": {
 	  "hasMany": "Content"
