@@ -22,6 +22,9 @@
 	},
 	"event": {
 	  "belongsTo": "Event"
-	}
+	},
+	"organiser"  : {
+	  "string": [ "<p><span class=\"text-primary\"><strong>GREEN LOBSTER MEDIA TECHNOLOGIES</strong></span><br> Marburgerstrasse 38<br> 8042 GRAZ&nbsp;<br> Austria<br> Tel : +43 (0) 676 7126348<br> E-Mail: office@greenlobster-mt.com</p>" ]
+	},	  
   }
 }
