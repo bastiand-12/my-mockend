@@ -17,7 +17,9 @@
 	}
   },
   "Content": {
-	"body": { "string": {} },
+	"body": {
+	  "loremParagraphs": { "minLength": 200, "maxLength": 500 }
+	},
 	"event": {
 	  "belongsTo": "Event"
 	}
